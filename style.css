@@ -380,14 +380,15 @@ text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 .my-post-image{
     box-shadow: 2px 2px 10px 0px gainsboro;
-    width: 45%;
+    width: 47%;
     height: auto;
     object-fit: cover;
     border-radius: 30px;
-    margin: 10px;
+    margin: 1rem 0;
 }
 
 @media (max-width: 1100px){
