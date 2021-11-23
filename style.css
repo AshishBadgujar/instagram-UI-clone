@@ -326,33 +326,10 @@ body{
     margin: 20px 0;
 }
 
-@media (max-width: 1100px){
-    .right-col, .search-box{
-        display: none;
-    }
-    .nav-wrapper,
-    .wrapper{
-        width: 90%;
-    }
-    .wrapper{
-        display: block;
-    }
-}
-
-@media (max-width: 500px){
-    .nav-items .icon{
-        margin: 0 5px;
-    }
-    .post-image{
-        height: 300px;
-    }
-}
-
-
 /* login page  */
 .login-form{
     height: 80vh;
-    width: 60%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -406,10 +383,38 @@ text-align: center;
 }
 .my-post-image{
     box-shadow: 2px 2px 10px 0px gainsboro;
-    width: 230px;
-    height: 270px;
+    width: 45%;
+    height: auto;
     object-fit: cover;
     border-radius: 30px;
-    margin-top: 20px;
-    margin-right: 10px;
+    margin: 10px;
+}
+
+@media (max-width: 1100px){
+    .right-col, .search-box{
+        display: none;
+    }
+
+    .nav-wrapper,
+    .wrapper{
+        width: 90%;
+    }
+    .wrapper{
+        display: block;
+    }
+}
+
+@media (max-width: 500px){
+    .nav-items .icon{
+        margin: 0 5px;
+    }
+    .post-image{
+        height: 300px;
+    }
+    .my-post-image{
+        width: 100%;
+    }
+    .login-form input{
+        width: 95%;
+    }
 }
